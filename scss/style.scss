@@ -94,7 +94,10 @@ body {
 .section {
 	padding: 100px 0;
 	text-align: center;
-	background: #f4f4f4;
+
+	&.section-gray {
+		background: #f4f4f4;
+	}
 }
 
 .section-title {
